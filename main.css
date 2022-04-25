@@ -1,0 +1,766 @@
+
+
+/*Grilla del body*/
+.grilla{
+
+    margin: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto ;
+    justify-items: center;
+    row-gap: 10px;
+}
+
+header{
+    grid-area: header; 
+}
+
+main{
+    grid-area: main; 
+}
+
+footer{
+    grid-area: footer; background-color:  #f0eeefe0;
+}
+
+
+.header__pegajoso {
+    opacity: 100%;
+    width:100%;
+    background-color:  #f0eeefe0;
+    position: sticky; top: 0pc;
+    border: solid;
+    border-bottom: #000000;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column ;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.logo__texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formulario-header{
+    padding-top: 10px;
+    
+}
+
+.logo__h1{ 
+    font-size: 10px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header__pegajoso__contenedor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+nav{ display: flex;
+    justify-content: flex-start;
+    
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom-color: #f0eeefe0;
+    border-bottom-style: groove ;
+}
+
+.ul-nav{
+    font-weight: 400;
+    font-family: 'Barlow', sans-serif;
+    margin: 0px;
+    font-size: 15px;
+    height: 50px;
+    list-style: none;
+}
+
+.a-nav{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.principal{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+
+
+/*====INSTITUCIONAL==== */
+
+.principal__insti{
+    width: 100%;
+}
+
+.section__insti__h3{
+    padding-top: 20px;
+    padding-left:10px;
+}
+
+.pricipal__section__insti{
+    padding-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    margin: 0px;
+    text-align:justify;
+    font-size: 15px;
+    background-color: #f0eeefe0;
+}
+
+.section__insti__p{
+    padding: 15px;
+    
+}
+
+.iframe{
+    width: 100%;
+}
+
+.form__insti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form__insti__mail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form__insti__coments{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*====INSTITUCIONAL====*/
+
+
+
+
+
+.pricipal__section{
+    width: 100%;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+}
+
+.principal__section__contenedor1{
+    display: flex;
+    
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.contenedor1__img{
+    width: 100%;
+}
+
+.contenedor1__img2{
+    display: none;
+    width: 100%;
+}
+
+
+.principal{
+    width: 100%;
+}
+
+
+.principal__section__contenedor2{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around ;
+    flex-direction: column;
+    width: 100%;
+}
+
+.principal__section__img1{
+
+    margin-top: 2px;
+    width: 100%;
+}
+
+.principal__section__img2{
+    width: 100%;
+    margin-top: 2px;
+}
+
+.principal__section__img3{
+    width: 100%;
+    margin-top: 2px;
+}
+
+.destacados__h2{
+    
+    margin: 20px;
+    font-size:  20px;
+    text-align: center;
+}
+
+.pack__img1{
+    display: flex;
+    justify-items: space-between;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pack__img2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pack__img3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pack__img4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.destacados__section{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.destacados__section__grid{
+    
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    width: 100%;
+
+    display: grid;
+    grid-template-areas: 
+    "pack1 pack2"
+    "pack3 pack4"
+    "pack5 pack6"
+    "pack7 pack8"
+    "pack9 pack10"
+    "pack11 pack12"
+    ;
+    
+    align-items:center;
+    justify-items: center;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto ;
+    row-gap: 10px;
+}
+
+
+.imagen__productos{
+    width: 150px;
+}
+
+
+.pack1{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack1";
+}
+
+.pack2{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack2";
+}
+
+.pack3{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack3";
+}
+
+.pack4{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack4";
+}
+
+.pack5{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack5";
+}
+
+.pack6{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack6";
+}
+
+.pack7{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack7";
+}
+
+.pack8{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack8";
+}
+
+.pack9{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack9";
+}
+
+.pack10{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack10";
+}
+
+.pack11{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack11";
+}
+
+.pack12{
+    text-align: center;
+    width: 100%;
+    grid-area: "pack12";
+}
+
+.formulario__section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+    font-size: 13px;
+    background-color: #f0eeefe0;
+    margin-top: 15px;
+    height: 120px;
+}
+
+.formulario__section p{
+    padding-left: 10px;
+    font-family: 'Barlow', sans-serif ;
+    font-weight: 300;
+}
+
+.formulario__section__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2px;
+    padding: 15px;
+}
+
+.footer{
+    margin-top: 15px;
+    background-color: #f0eeefe0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.footer p{
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.footer__imagenes{
+    width: 50px;
+}
+
+.footer__Contactanos{
+    padding-bottom: 15px;
+    padding-left: 40px;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    
+}
+
+.footer__Contactanos__a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__Atencion{
+    padding-bottom: 15px;
+    padding-left: 40px;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+.footer__Atencion__a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__Envios{
+    padding-bottom: 15px;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.footer__MetPagos{
+    padding-bottom: 15px;
+    padding-left: 40px;
+    list-style: none;
+}
+
+
+
+/* para la entrega pedian background-image, pero no me gustaba como quedaba. Asi que deje el codigo con :none  para que se vea que lo use*/
+
+.principal__insti{
+    background-image: none;
+}
+
+
+
+
+
+
+/*media queries*/
+
+
+
+@media screen and (min-width: 375px) {   
+    .logo__h1{ 
+        font-size: 12px;
+    }
+
+    .ul-nav{
+        font-family: 'Barlow', sans-serif;
+        font-size: 17px;
+    }
+
+    .formulario__section{
+        font-size: 15px;
+    }
+
+    nav{
+        padding-bottom: 15px;
+    }
+
+
+    /*Indumentaria*/
+    .imagen__productos{
+        width: 170px;
+    }
+}
+
+
+@media screen and (min-width: 425px) {
+    .formulario__section{
+        font-size: 17px;
+    }
+
+
+    /*Indumentaria*/
+    .imagen__productos{
+        width: 190px;
+    }
+}
+
+
+
+@media screen and (min-width: 650px) {
+    .principal__section__contenedor2{
+        justify-content: space-around ;
+        flex-direction: row;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .contenedor1__img{
+        width: 650px;
+        
+    }
+
+    .formulario__section{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        height: 150px;
+    }
+
+    .formulario__section input{
+        width: 300px;
+    }
+
+    nav{ 
+        
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+
+    .ul-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav li{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    /*Indumentaria*/
+    .destacados__section__grid{
+        grid-template-areas: 
+        "pack1 pack2 pack3"
+        "pack4 pack5 pack6"
+        "pack7 pack8 pack9"
+        "pack10 pack11 pack12"
+        ;
+
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto ;
+        justify-items: center;
+        row-gap: 10px;
+    }
+
+
+
+    /*Institucional*/
+    .form__insti{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 15px;
+        
+    }
+
+
+    .form__insti__mail{
+        margin-right: 30px;
+    }
+    
+    
+    .form__insti__coments{
+        margin-left: 30px;
+    }
+
+.section__insti__p{
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .logo{
+        display: flex ;
+        align-items: center;
+        flex-direction: row ;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+.destacados__section__contenedor{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .contenedor1__img{
+        display: none;
+    }
+
+    .contenedor1__img2{
+        display: block;
+        width: 100%;
+    }
+
+    .destacados__section__a{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .pack__img1{
+        flex-direction: column;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .pack__img2{
+        flex-direction: column;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .pack__img3{
+        flex-direction: column;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .pack__img4{
+        flex-direction: column;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .destacados__h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer{
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .footer__Contactanos{
+        padding-left: 0px;
+    }
+
+    .footer__Envios{
+        padding-left: 0px;
+    }
+
+    .footer__MetPagos{
+        padding-left: 0px;
+    }
+
+    .footer__Atencion{
+        padding-left: 0px;
+    }
+
+    .footer p{
+        font-size: 25px;
+        padding-left: 0px;
+    }
+
+    .contenedor1__img{
+        width: 800px;
+        height: 700px;
+        padding-bottom: 25px;
+    }
+
+    .principal__section__contenedor2{
+    margin-bottom: 20px;
+    }
+
+    .destacados__section__ul{
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap  ;
+    }
+
+
+
+    /*Indumentaria*/
+    .destacados__section__grid{
+        grid-template-areas: 
+        "pack1 pack2 pack3 pack4"
+        "pack5 pack6 pack7 pack8"
+        "pack9 pack10 pack11 pack12"
+        ;
+
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto ;
+        justify-items: center;
+        row-gap: 10px;
+    }
+
+    /*Institucional*/
+
+    .form__insti__mail{
+        margin-right: 80px;
+    }
+    
+    
+    .form__insti__coments{
+        margin-left: 80px;
+    }
+
+
+    .pricipal__section__insti{
+        font-size: 20px;
+    
+    }
+
+    .form__insti{
+        margin-bottom: 35px;
+        
+    }
+}
+
+
+
+@media screen and (min-width: 1250px) {
+
+    .ul-nav{
+        font-size: 25px;
+    }
+
+    .contenedor1__img{
+        width: 1000px;
+        height: 900px;
+        padding-bottom: 25px;
+    }
+
+
+    /*Indumentaria*/
+    .imagen__productos{
+        width: 250px;
+    }
+}
