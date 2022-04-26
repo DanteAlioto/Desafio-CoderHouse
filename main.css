@@ -2,7 +2,7 @@
 
 /*Grilla del body*/
 .grilla{
-
+    background-color: #4d7070;
     margin: 0px;
     width: 100%;
     display: grid;
@@ -16,6 +16,11 @@
     justify-items: center;
     row-gap: 10px;
 }
+
+*{
+    color: #EDE6DB;
+}
+
 
 header{
     grid-area: header; 
@@ -36,7 +41,7 @@ footer{
     background-color:  #f0eeefe0;
     position: sticky; top: 0pc;
     border: solid;
-    border-bottom: #000000;
+    border-bottom: #dfd4da;
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
@@ -80,7 +85,8 @@ footer{
     padding-top: 17px;
 }
 .nuevo_nav{
-    background: #f0eeef;
+    border-bottom: solid #003b3b;
+    background: #417D7A;
     height: 80px;
     color: rgb(17, 17, 17);
 }
@@ -110,7 +116,7 @@ footer{
 .nav_item{
     font-weight: 900;
     font-family:'Barlow', sans-serif;
-    color: rgb(17, 17, 17);
+    color: #EDE6DB;
     text-decoration: none;
     --clippy: polygon(0 0, 0 0, 0 95%, 0% 100%);
     
@@ -134,7 +140,7 @@ footer{
 
 
 .nav__input:checked + .nav_menu{
-    background:  #dfd4da;
+    background:   #1D5C63;
 }
 
 .nav_label, .nav__input{
@@ -159,7 +165,7 @@ footer{
         position: fixed;
         top: 80px;
         bottom: 0;
-        background:  #dfd4da;
+        background:  #1D5C63;
         width: 100%;
         left: 0;
         display: flex;
@@ -486,7 +492,7 @@ margin-right: 10px;
     
     width: 100%;
     font-size: 13px;
-    background-color: #f0eeefe0;
+    background-color: #417D7A;
     margin-top: 15px;
     height: 120px;
 }
@@ -507,7 +513,7 @@ margin-right: 10px;
 
 .footer{
     margin-top: 15px;
-    background-color: #f0eeefe0;
+    background-color: #417D7A;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
