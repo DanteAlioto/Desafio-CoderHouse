@@ -75,6 +75,8 @@ footer{
     margin-right: 25px;
 }
 
+
+
 /*nuevo NAV*/
 #logo{
     padding-top: 17px;
@@ -148,6 +150,18 @@ footer{
     grid-auto-flow: column ;
     gap: 3em;
 }
+
+.destacados__section__img{
+    margin-bottom: 20px;
+    }
+
+
+@media (min-width: 120px) and (max-width: 500px){
+    .destacados__section__img{
+        padding: 20px;
+        }
+}
+
 
 @media (max-width: 700px){
     .nav_label{
@@ -299,10 +313,11 @@ margin-right: 10px;
 }
 
 .destacados__h2{
+    width: 100%;
     animation-duration: 5s;
-    animation-name: texto;
+    /*animation-name: texto;*/
     animation-iteration-count: infinite;
-    margin: 20px;
+    padding: 20px;
     font-size:  20px;
     text-align: center;
 }
@@ -455,13 +470,14 @@ margin-right: 10px;
     justify-content: center;
     
     width: 100%;
-    font-size: 13px;
+    font-size: 12px;
     background-color: #f0eeefe0;
     margin-top: 15px;
-    height: 120px;
+    height: 150px;
 }
 
 .formulario__section p{
+    margin-top: 0px;
     padding-left: 10px;
     font-family: 'Barlow', sans-serif ;
     font-weight: 300;
@@ -471,7 +487,7 @@ margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 2px;
+    margin-bottom: 0;
     padding: 15px;
 }
 
@@ -681,6 +697,8 @@ margin-right: 10px;
 
 
 @media screen and (min-width: 1024px) {
+
+
 
     .logo{
         display: flex ;
