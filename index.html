@@ -52,13 +52,38 @@
 	<!--CONTENIDO PRINCIPAL -->
 	<main class="principal">
 
-		<!--BANNERS -->
+		
 		<section class="pricipal__section">
-			<div class="principal__section__contenedor1">
-				<img class="contenedor1__img" src="Imagenes/imagenes.destacados/Corderito_movil.jpg" alt="banner.corderito.mobile">
-				<img class="contenedor1__img2" src="Imagenes/imagenes.destacados/banner.corderito.jpg" alt="banner.corderito.desktop">
-			</div>
 			
+			<!--CAROUSEL -->
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+					<img src="Imagenes/imagenes.destacados/banner.corderito.jpg"  class="d-block w-100" alt="banner.corderito.mobile">
+					</div>
+					<div class="carousel-item">
+					<img src="Imagenes/imagenes.destacados/banner.frisa.invisible.jpg" class="d-block w-100" alt="banner.frisa.invisible">
+					</div>
+					<div class="carousel-item">
+					<img src="Imagenes/imagenes.destacados/banner.Polar.jpg" class="d-block w-100" alt="banner.Polar">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+			<!--BANNERS -->
 			<div class="principal__section__contenedor2">
 				<a href="index.html"><img class="principal__section__img1" src="Imagenes/banners/bannercuotas_1.png" alt="banner-cuotas"></a>
 				<a href="index.html"><img class="principal__section__img2" src="Imagenes/banners/bannerenvio_2.png" alt="banner-envio"></a>
@@ -198,32 +223,7 @@
 
 
 
-	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-			<img src="..." class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-			<img src="..." class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-			<img src="..." class="d-block w-100" alt="...">
-			</div>
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
-	</div>
+
 
 
 

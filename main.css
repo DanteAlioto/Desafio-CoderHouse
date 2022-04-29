@@ -60,12 +60,7 @@ footer{
     
 }
 
-.logo__h1{ 
-    font-size: 10px;
-    font-family: 'Barlow', sans-serif;
-    text-decoration: none;
-    color: #000000;
-}
+
 
 .header__pegajoso__contenedor{
     display: flex;
@@ -78,22 +73,31 @@ footer{
 
 
 /*nuevo NAV*/
-#logo{
+#logo{ 
     padding-top: 17px;
 }
 .nuevo_nav{
     border-bottom: solid #d4c1cb;
     background: #f0eeef;
     height: 80px;
-    color: rgb(17, 17, 17);
+    color: rgb(17, 17, 17) !important;
+}
+
+.logo__h1{ 
+    font-family: 'Barlow', sans-serif !important;
+    text-decoration: none !important;
+    color: #000000 !important;
+    font-size:  1em !important; 
 }
 
 .nav_logo{
     display: flex;
     flex-direction: row;
-    font-size:  2em; 
-
+    align-items: center;
+    
+    
 }
+
 
 .nav_img{
     padding-top: 30px ;
@@ -113,7 +117,7 @@ footer{
 .nav_item{
     font-weight: 900;
     font-family:'Barlow', sans-serif;
-    color: rgb(17, 17, 17);
+    color: rgb(17, 17, 17) !important;
     text-decoration: none;
     --clippy: polygon(0 0, 0 0, 0 95%, 0% 100%);
     
