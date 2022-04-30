@@ -1,6 +1,9 @@
 
 
 /*Grilla del body*/
+
+
+
 .grilla{
 
     margin: 0px;
@@ -62,12 +65,8 @@ footer{
 
 
 
-.header__pegajoso__contenedor{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 25px;
-    margin-right: 25px;
+.header__pegajoso{
+    z-index: +5;
 }
 
 
@@ -77,6 +76,7 @@ footer{
     padding-top: 17px;
 }
 .nuevo_nav{
+
     border-bottom: solid #d4c1cb;
     background: #f0eeef;
     height: 80px;
