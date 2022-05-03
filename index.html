@@ -30,7 +30,7 @@
 					<a class="logo__h1" href="index.html">
 					<h1>Textile</h1>
 					</a>
-					<a href="index.html"><img src="Imagenes/LOGO.png" alt="Logo" id="logo" width="60"></a>
+					<a href="index.html"><img src="Imagenes/LOGO.png" alt="Logo" id="logo1" width="60"></a>
 				</div>
 				
 
@@ -41,9 +41,19 @@
 			
 
 				<div class="nav_menu">
+
 					<a href="Paginas/telas-indumentaria.html#telas.indumentaria" class="nav_item">TELAS PARA INDUMENTARIA</a>
 					<a href="Paginas/telas-decoracion.html" class="nav_item">TELAS PARA INDUMENTARIA</a>
-					<a href="Paginas/telas-multiproposito.html" class="nav_item">TELAS MULTIPROPOSITO</a>
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+						MULTIPROPOSITO
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+						<li><a class="dropdown-item" href="Paginas/telas-multiproposito.html">Ir a Pagina</a></li>
+						<li><a class="dropdown-item" href="Paginas/telas-multiproposito.html">Articulo popular</a></li>
+						<li><a class="dropdown-item" href="Paginas/telas-multiproposito.html">Oferta</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -161,17 +171,19 @@
 
 
 		<!--FORMULARIO NUEVO -->
-		<section class="container" >
-			<div class="row">
-				<div class="col-sm-12 col-xs-12 coo-md-12">
+		<section class="container" id="formulario" >
+			<div class="row" >
+				<div class="col-sm-12 col-xs-12 coo-md-12" id="cupon">
 					<h4 class="formulario__h4">15% Off en tu primera compra! Recibi el cupon por mail </h4>
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-sm-12 col-xs-12 coo-md-12">
-					<input class="formulario__input" type="email" placeholder="Ingresa tu mail">
-					<input class="formulario__input"  type="submit" value="Quiero!">
+			<div class="row" >
+				<div class="col-sm-12 col-xs-12 coo-md-12" id="cupon2">
+					<form >
+					<input class="mail_form" type="email" placeholder="Ingresa tu mail">
+					<input class="boton_form" type="submit" value="QUIERO!">
+					</form>
 				</div>
 			</div>
 		</section>

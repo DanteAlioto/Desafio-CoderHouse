@@ -45,6 +45,13 @@ footer{
     border-top: 0px;
 }
 
+#logo{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
 .logo{
     display: flex;
     flex-direction: column ;
@@ -72,9 +79,7 @@ footer{
 
 
 /*nuevo NAV*/
-#logo{ 
-    padding-top: 17px;
-}
+
 .nuevo_nav{
 
     border-bottom: solid #d4c1cb;
@@ -656,7 +661,33 @@ margin-right: 10px;
 
 }
 
+#cupon{
+    display: flex;
+    justify-content: center;
+}
 
+#cupon2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail_form{
+    padding-left: 15px;
+    height: 35px;
+    width: 220px;
+    border: none;
+}
+
+.boton_form{
+    margin-left: 20px;
+    height: 35px;
+    width: 110px;
+    border: none;
+    color: #f0eeef;
+    background-color: #000000;
+}
 
 /*media queries*/
 
@@ -864,7 +895,7 @@ margin-right: 10px;
     }
 
     .footer{
-    margin: 30px;
+    
     }
 
     .footer__1{ 
@@ -940,6 +971,14 @@ margin-right: 10px;
     }
 
     /*Institucional*/
+
+    #formulario{
+        padding-bottom: 25px;
+        align-items: center;
+        
+    
+    }
+
 
     .form__insti__mail{
         margin-right: 80px;
